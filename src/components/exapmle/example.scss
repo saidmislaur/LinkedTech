@@ -1,0 +1,89 @@
+.example {
+  margin-top: 130px;
+  background: white;
+  &__cards {
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+  }
+  &__card {
+    display: flex;
+    &_description {
+      margin-left: 30px;
+    }
+    
+    h3 {
+      font-weight: 600;
+      font-size: 25px;
+      line-height: 40px;
+      color: #030D15;
+      margin-top: 20px;
+    }
+    p {
+      font-size: 14px;
+      line-height: 21px;
+      color: #030D15;
+      opacity: 0.6;
+      width: 250px;
+      margin-top: 10px;
+      margin-bottom: 20px;
+    }
+
+    .price {
+      margin-left: 0;
+    }
+  }
+  &__grade {
+      margin-top: 15px;
+  }
+
+
+  &__advertising {
+    margin-top: 160px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__promo {
+    background: linear-gradient(257.26deg, #008BF0 -13.2%, #D943C9 130.95%);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 0px 0px; 
+    display: flex;
+    align-items: center;
+    padding:  30px;
+    margin-right: 30px;
+   
+    span {
+      font-size: 16px;
+      line-height: 27px;
+      text-transform: uppercase;
+      color: #F4F9FC;
+      opacity: 0.6;
+    }
+
+    img {
+      width: 275px;
+      height: 230px;
+    }
+
+    &_text {
+      h4 {
+        font-size: 31px;
+        line-height: 40px;
+        color: #F4F9FC;
+        margin-top: 5px;
+      }
+      button {
+        font-size: 14px;
+        line-height: 27px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #F4F9FC;
+        cursor: pointer;
+        background: transparent;
+        border: none;
+        margin-top: 7px;
+      }
+    }
+  }
+}

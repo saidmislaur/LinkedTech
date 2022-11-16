@@ -1,0 +1,19 @@
+.price {
+  font-size: 20px;
+  line-height: 27px;
+  text-align: center;
+  color: #030D15;
+  margin-left: 30px;
+  font-weight: bold;
+
+  &--line {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 27px;
+    text-align: center;
+    text-decoration-line: line-through;
+    color: #030D15;
+    opacity: 0.5;
+    margin-left: 18px;
+  }
+}

@@ -1,0 +1,83 @@
+.popular {
+  margin-top: 125px;
+  &__title {
+    text-align: center;
+    span {
+      font-size: 14px;
+      line-height: 23px;
+      text-align: center;
+      letter-spacing: 0.145em;
+      text-transform: uppercase;
+      color: #C72535;
+      opacity: 0.6;
+    }
+    h1 {
+      font-size: 44px;
+      line-height: 71px;
+      color: #030D15;
+      margin-top: 5px;
+    }
+  }
+
+  &__nav {
+    ul {
+      display: flex;
+      justify-content: center;
+      li {
+        font-size: 14px;
+        line-height: 23px;
+        font-weight: bold;
+        text-transform: uppercase;
+        color: #030D15;
+        opacity: 0.6;
+        margin-right: 40px;
+        cursor: pointer;
+      }
+    }
+    .active {
+      color: #C72535;
+    }
+  }
+  &__products {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+}
+
+.card {
+  background: #FFFFFF;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 35px 33px;
+  display: inline-block;
+  span {
+    font-size: 16px;
+    line-height: 27px;
+    color: #030D15;
+    display: block;
+  }
+
+  img {
+    margin-top: 12px;
+  }
+
+  &__name {
+    font-weight: 800;
+    font-size: 25px;
+    line-height: 40px;
+    color: #030D15;
+  }
+  .price {
+    margin-top: 5px;
+    display: inline-block;
+    margin-left: 0;
+
+    &--line {
+      display: inline-block;
+    }
+  }
+  &__grade {
+    margin-top: 10px;
+  }
+}
