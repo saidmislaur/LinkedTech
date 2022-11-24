@@ -34,6 +34,21 @@ const Popular = () => {
           image="./img/products/Rectangle 90.png"
           name="Mackbook Pro"
         />
+        <Card 
+          discount="Get up to 10% off Today Only!"
+          image="./img/products/Rectangle 85.png"
+          name="Mouse"
+        />
+        <Card 
+          discount="Get up to 40% off Today Only!"
+          image="./img/products/Rectangle 89.png"
+          name="Black iPhone Speaker"
+        />
+        <Card 
+          discount="Get up to 55% off Today Only!"
+          image="./img/products/Rectangle 88.png"
+          name="Mackbook Pro"
+        />
       </div>
       <button className="popular__all"></button>
     </div>

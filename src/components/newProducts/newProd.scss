@@ -1,0 +1,39 @@
+.new-prod {
+  &__title {
+    text-align: center;
+    span {
+      font-size: 14px;
+      line-height: 23px;
+      letter-spacing: 0.145em;
+      text-transform: uppercase;
+      color: #C72535;
+      opacity: 0.6;
+    }
+    h2 {
+      font-size: 44px;
+      line-height: 71px;
+      color: #030D15;
+    }
+    p {
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 24px;
+      color: #030D15;
+      opacity: 0.6;
+      width: 450px;
+      margin: 0 auto;
+    }
+  }
+
+  &__cards {
+    column-count:3;
+  }
+
+  &__card {
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 18px;
+    text-align: center;
+    margin-top: 30px;
+  }
+}

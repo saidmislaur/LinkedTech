@@ -1,0 +1,38 @@
+.footer {
+  background: #030D15;
+
+  h4 {
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+  }
+  ul {
+    margin-top: 25px;
+    li {
+      font-size: 14px;
+      line-height: 23px;
+      color: #FFFFFF;
+      opacity: 0.6;
+      margin-bottom: 15px;
+    }
+  }
+
+  &__content {
+    padding-top: 75px;
+    padding-bottom: 55px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  &__logo {
+    span {
+      font-size: 14px;
+      line-height: 23px;
+      color: #FFFFFF;
+      opacity: 0.6;
+      display: block;
+    }
+  }
+}
